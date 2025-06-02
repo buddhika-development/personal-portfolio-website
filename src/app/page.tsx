@@ -7,7 +7,7 @@ export default function Home() {
     <div className="h-screen w-full">
 
       {/* temporary note */}
-      <div className="w-full h-full absolute z-10 text-white flex items-center justify-center">
+      <div className="w-full h-full absolute z-10 text-zinc-900 dark:text-white flex items-center justify-center">
         <div className="content flex flex-col items-center">
           <h1 className="text-5xl font-semibold mb-4">I am Live in</h1> 
           <div className="mx-auto mt-2 text-base font-bold tracking-tight md:text-base">
