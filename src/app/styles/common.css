@@ -1,34 +1,23 @@
-.container {
-  position: relative;
-  width: 90vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  border-radius: 9px;
-}
-
-.text {
-  color: #dfdcff;
-  font-size: clamp(2rem, 12rem, 5vw);
-  line-height: 1.2;
-  box-sizing: border-box;
-  padding: 5%;
-  width: 100%;
-  text-align: center;
-  perspective: 500px;
-}
-
-.button-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
 .background-gradient{
-  height: 1800px;
-  width: 1800px;
+  height: 100%;
+  width: 100%;
   background-image: radial-gradient(closest-side, #ac46ff36, transparent);
+}
+
+
+
+/* ====================================================== */
+/* title and subtitle designs */
+/* ====================================================== */
+
+.title {
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sub-title{
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
 }
