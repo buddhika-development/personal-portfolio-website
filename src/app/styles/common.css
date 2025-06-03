@@ -1,0 +1,23 @@
+.background-gradient{
+  height: 100%;
+  width: 100%;
+  background-image: radial-gradient(closest-side, #ac46ff36, transparent);
+}
+
+
+
+/* ====================================================== */
+/* title and subtitle designs */
+/* ====================================================== */
+
+.title {
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sub-title{
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+}
